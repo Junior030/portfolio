@@ -23,6 +23,12 @@ const projects = [
         descricao: 'O projeto desenvolvido junto com a escola Trybe, onde desenvolvi o HTML, CSS e JavaScript onde pratiquei requesições em APIs (Mercado Livre) e também armazenamento no Local Storage.',
         img: 'https://i.ibb.co/2qh1GgL/Shopping-Cart.gif',
     },
+    {
+        name: 'Movie Card', 
+        repositorio: 'https://github.com/Junior030/Movie-Card',
+        descricao: 'O projeto desenvolvido junto com a escola Trybe, desenvolvido com React onde pratiquei props, BrowserRouter e ciclos de vida dos componentes.',
+        img: 'https://i.ibb.co/k4pGgFQ/movie-Card.gif',
+    },
 ]
 
 export default projects;
