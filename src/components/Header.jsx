@@ -8,31 +8,31 @@ class Header extends React.Component {
     return (
       <header className="menuLateral">
         <nav className="navegacao">
-          <Link to="/">
+          <Link to="/portfolio/">
             <div className='links'>
               <FontAwesomeIcon icon={faHome} size="2x" />
               <span>Home</span>
             </div>
           </Link>
-          <Link to="/SobreMim">
+          <Link to="SobreMim">
             <div className='links'>
               <FontAwesomeIcon icon={faAddressCard} size="2x" />
               <span>Sobre Mim</span>
             </div>
           </Link>
-          <Link to="/Habilidades">
+          <Link to="Habilidades">
             <div className='links'>
               <FontAwesomeIcon icon={faPuzzlePiece} size="2x" />
               <span>Habilidades</span>
             </div>
           </Link>
-          <Link to="/Projetos">
+          <Link to="Projetos">
             <div className='links'>
               <FontAwesomeIcon icon={faTasks} size="2x" />
               <span>Projetos</span>
             </div>
           </Link>
-          <Link to="/Contato">
+          <Link to="Contato">
             <div className='links'>
               <FontAwesomeIcon icon={faEnvelope} size="2x" />
               <span>Contato</span>
