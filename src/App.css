@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 1.5px;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+/*Inicio----------------Conteiner body*/
+.background {
+  width: 100%;
+  height: 100%; 
+  background-image: url(../src/image/digitando.jpg);
+  filter: grayscale(100%) opacity(80%) blur(1px);
+  -webkit-filter: grayscale(100%) opacity(80%) blur(5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute; 
+  z-index: 0;
+}
+
+.App {
+  width: 80%;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+}
+/*Fim----------------Conteiner body*/
+
+/* Inicio-------------Container App */
+.sectionsLinks {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.menuLateral {
+  width: 25%;
+  height: 100vh;
+  position: absolute;
+  margin-left: -30%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all .7s linear;
+  background-color: rgba(88, 88, 88, 0.788);
+}
+/* Fim---------------Container App */
+
+/*Inicio-------------------CheckedMenu*/
+.clickMenu {
+  position: fixed;
+  top: 1%;
+  left: 3%;
+  z-index: 3;
+}
+
+#check {
+  display: none;
+}
+
+#bars {
+  cursor: pointer;
+  margin-left: -80%;
+}
+
+#bars2 {
+  display: none;
+  cursor: pointer;
+  margin-left: -80%;
+}
+/*Fim-------------------CheckedMenu*/
+
+
+/*Inicio------------------- header */
+.navegacao {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  color: black;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.links span {
+  margin-left: 10px;
+}
+
+.links:hover {
+  color: antiquewhite;
+  background-color: black;
+  transition: color .4s linear .1s;
+}
+/*Fim------------------- header*/
+
+/*Inicio---------------Conteudo home*/
+.conteudoHome {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudoHome h1 {
+  margin-top: 20px;
+}
+
+.conteudoHome div {
+  margin-top: 60px;
+}
+
+.conteudoHome div a {
+  cursor: pointer;
+  text-align: center;
+  width: 230px;
+  margin: 2% 7%;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 10px;
+  background: transparent;
+  color: black;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.conteudoHome div a:hover {
+  transition: color .2s linear .2s;
+  background: black;
+  color: antiquewhite;
+}
+/*Fim---------------Conteudo home */
+
+/* Inicio--------------conteudoSobreMim */
+
+.conteudoSobreMim {
+  width: 100%;
+  height: 70%;
+  text-align: justify;
+  font-weight: 900;
+  display: flex;
+  justify-content: space-around;
+  font-size: 19px;
+}
+
+.conteudoSobreMim div {
+  width: 40%;
+}
+
+.conteudoSobreMim p {
+  margin-top: 20px;
+}
+
+.conteudoSobreMim img{
+  width: 20%;
+  height: 100%;
+  border-radius: 20px;
+  justify-items: center;
+  align-self: center;
+}
+/* Fim--------------conteudoSobreMim */
+
+/* Inicio--------------Habilidade */
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.images img {
+  width: 10%;
+  margin: 5%;
+}
+/* Fim--------------Habilidade */
+
+/* Inicio--------------Projects */
+.projects {
+  width: 70%;
+  text-align: justify;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects img {
+  width: 50%;
+  margin: 0 20px;
+  border-radius: 10px;
+}
+
+.projects div {
+  margin-right: 20px;
+}
+
+.projects a {
+  cursor: pointer;
+  text-align: center;
+  width: 230px;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 5px;
+  background: transparent;
+  color: black;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.projects a:hover {
+  transition: color .2s linear .2s;
+  background: black;
+  color: antiquewhite;
+}
+
+/* Fim--------------Projects */
+
+
+/* Inicio--------------NotFound */
+.notfound {
+  text-align: center;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound img {
+  width: 30%;
+}
+
+.notfound div {
+  margin-top: 5%;
+}
+
+.notfound a {
+  cursor: pointer;
+  text-align: center;
+  width: 230px;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 5px;
+  background: transparent;
+  color: black;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.notfound a:hover {
+  transition: color .2s linear .2s;
+  background: black;
+  color: antiquewhite;
+}
+/* Fim--------------NotFound */
