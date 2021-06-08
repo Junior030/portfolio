@@ -10,8 +10,8 @@ class Home extends React.Component {
           <h1>Meu nome é Junior Henrique.</h1>
           <h1>Sou um desenvolvedor full stack júnior e moro em Belo Horizonte.</h1>
           <div>
-            <Link to="portfolio//Projetos" type="button">VEJA MEUS PROJETOS</Link>
-            <Link to="portfolio//Contato" type="button">ENTRE EM CONTATO</Link>
+            <Link to="Projetos" type="button">VEJA MEUS PROJETOS</Link>
+            <Link to="Contato" type="button">ENTRE EM CONTATO</Link>
           </div>
         </div>
       </section>        

@@ -14,7 +14,7 @@ class NotFound extends React.Component {
             <p>Você parece perdido...</p>
             <p>Que tal voltar a locais civilizados...</p>
             <p>Mas antes, olhe o que acontece com o homem das cavernas...</p>
-            <Link to="portfolio//">HOME</Link>
+            <Link to="/portfolio/">HOME</Link>
           </div>
         </div>
       </section>
