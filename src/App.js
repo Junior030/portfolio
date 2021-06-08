@@ -18,10 +18,10 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/portfolio/" component={Home} />
-          <Route exact path="/Projetos" component={Projetos} />
-          <Route exact path="/Contato" component={Contato} />
-          <Route exact path="/Habilidades" component={Habilidades} />
-          <Route exact path="/SobreMim" component={SobreMim} />
+          <Route exact path="portfolio//Projetos" component={Projetos} />
+          <Route exact path="portfolio//Contato" component={Contato} />
+          <Route exact path="portfolio//Habilidades" component={Habilidades} />
+          <Route exact path="portfolio//SobreMim" component={SobreMim} />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>
