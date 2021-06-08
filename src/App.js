@@ -17,7 +17,7 @@ function App() {
         <CheckedMenu />
         <Header />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/portfolio/" component={Home} />
           <Route exact path="/Projetos" component={Projetos} />
           <Route exact path="/Contato" component={Contato} />
           <Route exact path="/Habilidades" component={Habilidades} />
