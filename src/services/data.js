@@ -17,6 +17,12 @@ const projects = [
         descricao: 'O projeto foi realizado durante o início da minha graduação, onde desenvolvi o HTML, CSS e JavaScript onde pratiquei muito a minha lógica de programação.',
         img: 'https://i.ibb.co/6189m15/mata-Mosquito.png',
     },
+    {
+        name: 'Shopping Cart', 
+        repositorio: 'https://github.com/Junior030/Project-ShoppingCart',
+        descricao: 'O projeto desenvolvido junto com a escola Trybe, onde desenvolvi o HTML, CSS e JavaScript onde pratiquei requesições em APIs (Mercado Livre) e também armazenamento no Local Storage.',
+        img: 'https://i.ibb.co/2qh1GgL/Shopping-Cart.gif',
+    },
 ]
 
 export default projects;
