@@ -51,6 +51,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-left: 5px;
+  animation: sectionsLinks 1.5s;
 }
 
 .menuLateral {
@@ -275,3 +276,29 @@ img {
   color: antiquewhite;
 }
 /* Fim--------------NotFound */
+
+
+/* Inicio ------------- Contato */
+
+.textContato{
+  font-size: 1.2em;
+  width: 50%;
+  text-align: justify;
+}
+
+.linksContato {
+  display: flex;
+}
+
+.linksContato img {
+  width: 50px;
+  margin: 5px;
+}
+
+/* Fim ---------------- Contato */
+
+@keyframes sectionsLinks {
+  from {top: -600px;}
+  to {top: 0px;}
+
+}

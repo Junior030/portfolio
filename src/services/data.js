@@ -26,8 +26,14 @@ const projects = [
     {
         name: 'Movie Card', 
         repositorio: 'https://github.com/Junior030/Movie-Card',
-        descricao: 'O projeto desenvolvido junto com a escola Trybe, desenvolvido com React onde pratiquei props, BrowserRouter e ciclos de vida dos componentes.',
+        descricao: 'O projeto desenvolvido pela Trybe, desenvolvido com React onde pratiquei props, BrowserRouter e ciclos de vida dos componentes.',
         img: 'https://i.ibb.co/k4pGgFQ/movie-Card.gif',
+    },
+    {
+        name: 'Trybe Wallet', 
+        repositorio: 'https://github.com/Junior030/project-trybewallet',
+        descricao: 'O projeto desenvolvido pela Trybe, utilizando store, reducers, actions e dispatchers no Redux em aplicações React. Conectar Redux aos componentes React. Criar actions assíncronas na sua aplicação React que faz uso de Redux.',
+        img: 'https://i.ibb.co/KW1s9d7/trybe-Wallet.gif',
     },
 ]
 
